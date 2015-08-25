@@ -3,7 +3,7 @@ iOS网络相关的第三方库
 
 #ASIHttpRequst库
 1.异步请求，使用的时MRC，因此ARC环境下需要混编设置
-2.使用时，需要导入必要的系统框:CFNetwork.framwor/ SystemConfiguration.framwork/MobileCoreServices.framwork/coreCraphic
+2.使用时，需要导入必要的系统框:CFNetwork.framwork/ SystemConfiguration.framwork/MobileCoreServices.framwork/coreCraphic
   s.framwork/libz.dylib/libxml2.dylib
   
 #SDWebImage库
