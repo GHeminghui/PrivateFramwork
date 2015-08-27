@@ -14,3 +14,12 @@ iOS网络相关的第三方库
 1.异步请求 使用时同时依赖newGata库  需要导入
 2.使用时，需要导入必要的系统框架：   coreCraphis.framwork /libxml2.dylib
 3.ARC  在ARC环境下直接使用，不需要混编
+
+#AFAppDotNetAPIClient 是对AFNetworking的封装的单利 使用方法：
+
+[[AFAppDotNetAPIClient sharedClient] GET:url parameters:nil success:^(NSURLSessionDataTask *task, NSDictionary *responseObject){
+    //数据请求成功
+} failure:^(NSURLSessionDataTask *task, NSError *error)
+{
+    //数据请求失败
+}];
