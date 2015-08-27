@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:007AFN-GET-POST/007AFN-GET-POST.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:006ASI-POST/006ASI-POST.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:005NSURLConnection-POST-Block/005NSURLConnection-POST-Block.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:004NSURLConnection-POST-Delegate/004NSURLConnection-POST-Delegate.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:003ASI-GET/003ASI-GET.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:002NSURLConnection-GET-Block/002NSURLConnection-GET-Block.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:001NSURLConnection-GET-Delegate/001NSURLConnection-GET-Delegate.xcodeproj">
+   </FileRef>
+</Workspace>

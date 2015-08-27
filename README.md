@@ -23,3 +23,7 @@ iOS网络相关的第三方库
 {
     //数据请求失败
 }];
+
+#POST请求/GET请求案例
+分别使用NSURLConnection ,ASI,AFN 实现GET / POST 请求的案例
+使用AFN的请求，可以使用案例7中封装号的网络模块
