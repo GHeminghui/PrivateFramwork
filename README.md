@@ -27,3 +27,18 @@ iOS网络相关的第三方库
 #POST请求/GET请求案例
 分别使用NSURLConnection ,ASI,AFN 实现GET / POST 请求的案例
 使用AFN的请求，可以使用案例7中封装号的网络模块
+
+
+
+#手动代码中进行界面适配库 “Masonry”
+ARC环境下使用即可 Masonry.h包含所有类的头文件引用 使用时在pch文件中引用该文件即可
+
+使用举例：
+
+[_titleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+make.left.equalTo(superView.mas_left).offset(10);
+make.top.equalTo(superView.mas_top).offset(5);
+make.right.equalTo(superView.mas_right).offset(-5);
+make.height.equalTo(view.mas_height).multipliedBy(1/2.0);
+}];
+
