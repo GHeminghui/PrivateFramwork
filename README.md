@@ -42,3 +42,5 @@ make.right.equalTo(superView.mas_right).offset(-5);
 make.height.equalTo(view.mas_height).multipliedBy(1/2.0);
 }];
 
+
+#MagicalRecord sqlit数据库操作封装的第三方库 使用方法见“美食屋”项目
